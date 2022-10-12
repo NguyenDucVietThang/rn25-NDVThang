@@ -1,12 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import BasicUI01 from '../src/Homeworks/Session02/BasicUI01';
+import BasicUI02 from '../src/Homeworks/Session02/BasicUI02';
+import BasicUI03 from '../src/Homeworks/Session02/BasicUI03';
 function App() {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <>
+      <BasicUI01/>
+      <BasicUI02/>
+      <BasicUI03/>
+      
+    </>
   );
 }
 
