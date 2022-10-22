@@ -1,24 +1,21 @@
 import React from "react";
 import anh3 from "../Session02/basic-images/3.jpg";
 
-type Props = {};
-
-function Footer({}: Props) {
+function Footer() {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-6 col-12">
-            <ul className="list-group list-group-flush content-left mb-4">
-              <li>
-                <img src={anh3}/>
-              </li>
-              <li className="list-group lh-lg fw-light">Technology</li>
-              <li className="list-group fw-bold">
-                Harman Kadon Onyx Studio Mini, Review & Experiences
-              </li>
-              <li className="list-group lh-lg text-muted ">Feb 21,2021 by drfurion</li>
-            </ul>
+      <div className="row p-2">
+        <div className="col-12 mb-3">
+          <img src={anh3} />
+        </div>
+        <div className="col-12">
+          <h2 className="fw-light fs-5 ">Technogly</h2>
+          <h3 className="main__3-size">
+            Harman Kadon Onyx Studio Mini, Review & Experiences
+          </h3>
+          <div className="text-muted">
+            Ngày 11 tháng 10 năm 2022 by{" "}
+            <span className="text-dark">drfurion</span>
           </div>
         </div>
       </div>

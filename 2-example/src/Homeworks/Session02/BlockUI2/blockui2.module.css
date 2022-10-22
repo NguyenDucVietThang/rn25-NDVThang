@@ -1,0 +1,23 @@
+.div__bar{
+    font-size: 30px;
+    margin-left: 30px;
+    /* width: 60%; */
+}
+.process__bar{
+    background-color: rgb(241, 233, 233);
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.success{
+    position: absolute;
+    font-size: 25px;
+    height: 100%;
+    vertical-align: middle;
+}

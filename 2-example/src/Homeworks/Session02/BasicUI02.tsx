@@ -1,27 +1,33 @@
 import React from "react";
 import anh2 from "../Session02/basic-images/2.jpg";
-import StarsRating from 'react-star-rate';
+import { AiFillStar } from "react-icons/ai";
+import { AiOutlineStar } from "react-icons/ai";
 
+// import
 type Props = {};
 
-function Footer({}: Props) {
+function BasicUI02({}: Props) {
   return (
-    <>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-3 col-12">
-            <ul className="list-group list-group-flush content-left mb-4">
-              <li><img src={anh2}/></li>
-              <li className="list-group-item">YOUNG SHOP</li>
-              <li className="list-group text-info">Samsung UHD TV 24inch</li>
-              <li className="list-group ">Rating</li>
-              <li className="list-group ">$599</li>
-            </ul>
+    <div>
+      <div className="row p-4">
+        <div className="col-12">
+          <img src={anh2} alt="Television" />
+        </div>
+        <div className="col-12">
+          <h2 className="">YOUNG SHOP</h2>
+          <h3 className="text-primary">SAMSUNG IHBCD 1000 INCH</h3>
+          <div className="text-warning">
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
+            <AiOutlineStar /> <span className="text-muted">02</span>
           </div>
+          <span>$599</span>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default Footer;
+export default BasicUI02;
