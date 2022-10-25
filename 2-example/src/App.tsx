@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
+import Router from "./components/Router/Router";
 // import BlockUI2 from "./Homeworks/Session02/BlockUI2/BlockUI2";
-import * as Icons from "react-icons/fc";
-import * as Icons1 from "react-icons/fa";
-import BlockUI3 from "./Homeworks/Session02/BlockUI3/BlockUI3";
-import ClassRating from "./Homeworks/Session03/ClassRating";
-import FuncLike from "./Homeworks/Session05/FuncLike";
-import ClassLike from "./Homeworks/Session03/ClassLike";
-import FuncRating from "./Homeworks/Session05/FuncRating";
-import Form from "./Homeworks/Session06/Form";
+// import * as Icons from "react-icons/fc";
+// import * as Icons1 from "react-icons/fa";
+// import BlockUI3 from "./Homeworks/Session02/BlockUI3/BlockUI3";
+// import ClassRating from "./Homeworks/Session03/ClassRating";
+// import FuncLike from "./Homeworks/Session05/FuncLike";
+// import ClassLike from "./Homeworks/Session03/ClassLike";
+// import FuncRating from "./Homeworks/Session05/FuncRating";
+// import Form from "./Homeworks/Session06/Form";
 // import BlockUI1 from "./Homeworks/Session02/BlockUI1/BlockUI1";
 // import Form from "./components/Form";
 // import Hook from "./components/Hook";
@@ -78,10 +79,11 @@ function App() {
         total="50000 Tweets"
       /> */}
       {/* <ClassRating/> */}
-      <FuncLike/>
-      <FuncRating/>
+      {/* <FuncLike/>
+      <FuncRating/> */}
       {/* <LikeBtn/> */}
-      <Form/>
+      {/* <Form/> */}
+      <Router/>
     </>
   );
 }
